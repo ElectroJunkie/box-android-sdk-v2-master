@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <Button
+        android:id="@+id/btnUploadFile"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/upload_file" />
+
+    <Button
+        android:id="@+id/btnDownloadFileViaPicker"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/Select_file_to_download" />
+
+    <Button
+        android:id="@+id/btnChangeFolderLocationViaPicker"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/Select_destination_folder" />
+
+    <ListView
+        android:id="@android:id/list"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+    </ListView>
+
+</LinearLayout>
